@@ -5,13 +5,8 @@ class Elisym < Formula
   license "MIT"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.1.0/elisym-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
-    else
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.1.0/elisym-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
+    url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.1.0/elisym-aarch64-apple-darwin.tar.gz"
+    sha256 "PLACEHOLDER"
   end
 
   on_linux do
