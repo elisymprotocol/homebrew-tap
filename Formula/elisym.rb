@@ -1,28 +1,28 @@
 class Elisym < Formula
   desc "CLI agent runner for the elisym protocol"
   homepage "https://github.com/elisymprotocol/elisym-client"
-  version "v0.4.16"
+  version "v0.4.18"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.16/elisym-aarch64-apple-darwin.tar.gz"
-      sha256 "f60c9a30d4a6051311a07f02a2dcd858a8cdc0c698146a015cbdf8572050191b"
+      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.18/elisym-aarch64-apple-darwin.tar.gz"
+      sha256 "73b822ddb0a9f715f11c15539f30fbdebe90c38e5323af5a487bf0d27d841ab1"
     end
     on_intel do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.16/elisym-x86_64-apple-darwin.tar.gz"
-      sha256 "fa462da65b2f87ba48ad1a86754118ecc25b89fef564795e76be05cd9c158fc4"
+      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.18/elisym-x86_64-apple-darwin.tar.gz"
+      sha256 "7dd25bb03f391d89005fe748cc666b87e08580d56775968cbd85698a5d6924c1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.16/elisym-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d3d74368a82d8034d897a691d30e8807c01a686828751895929e7b958eca6de9"
+      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.18/elisym-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dbce4c6079c471a35d2ff400711bd591410dfdae2ea8ecda4f0f1c34c2bff8c8"
     end
     on_intel do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.16/elisym-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5760e222db36f567ce5e46103c70f60cd7b76b93ee3a24a77c42ae58bc435895"
+      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.18/elisym-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cc55b4f79121c0b395a3ba86ba54a75fb423b9929e95a0a68961b0c710f6d453"
     end
   end
 
